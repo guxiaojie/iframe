@@ -1,0 +1,103 @@
+@import './_variable.scss';
+
+page, .container{
+    height: 100%;
+}
+
+.login {
+    border-bottom: 0px solid #efefef;
+    > .recordcell {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      line-height: 60px;
+      padding:0px 40px;
+       > .subtitle {
+         position: absolute;
+        right: 40px;
+      }
+    }
+    .login-bar {
+      padding:0px  100px;
+    //  background: #ef00ef;
+      margin-top:10px;
+      align-items: center; 
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+      .login-row {
+            width: 100%;  
+            margin-top: 50px;
+            display: flex;
+        }
+        
+      .login-search {
+        width: 99%;
+        background-image: url('https://assets.storiesmatter.cn/searchbar-bg.png');
+        background-size: contain;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: 99% $loginHeight;
+        height: $loginHeight;
+        line-height: $loginHeight;
+      }
+
+      .login-search1 {
+        width: 100%; 
+      }
+
+      .get-code-text {
+        height: $loginHeight;
+        width: 40%; 
+        margin-top: 22px;
+        margin-left: 20px;
+        font-size: 35px;
+        // background: #ef0000;      
+      }
+      .sending {
+        color: $iconGrey;
+      }
+
+        /* 搜索框提示文字样式 */
+      *:focus {
+        outline: none;
+      }
+   
+    }
+  } 
+  
+.login-sure {
+  margin: 50px auto;
+	height: 125px;
+	line-height: 80px;
+  .login-sure-btn {
+    height: 120px;
+    line-height: 120px;
+    margin: 0 84px;
+	  font-size: 38px;
+	  display: flex;
+	  justify-content: center;
+    color: #fff;
+    background-image: url('https://assets.storiesmatter.cn/pay-green-bg.png');
+    background-size: 100% 120px;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.login-version{
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  > p {
+    color: #000;
+	  font-size: 20px;
+    // background-color: #ff1;
+    text-align: center;
+  }
+}

@@ -1,0 +1,57 @@
+@import './_variable.scss';
+page, .container{
+
+  height: 100%;
+
+  width: 100%; 
+
+  
+  .img-pay {
+  width: 100%;
+  //border: 1px solid black;
+  background-color:transparent;
+ 
+  display:flex;                    //flex布局
+  justify-content: center;         //水平轴线居中
+ 
+}
+
+.statement-list {
+  .cell {
+    height:120px;
+    // background-color:pink;
+    width: 100%;
+    // margin: 20px 0px;
+    font-size: 28px; 
+  }
+  .cell-radio {
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+  .cell-text {
+    padding-left: 30px;
+  }
+}
+
+
+
+.pay {
+  width: 295px;
+  height: 100px;
+	margin: 60px auto;
+  display: block;
+  // background-color: red;
+  background-image: url("https://assets.storiesmatter.cn/payx2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  .svg-demo-text {
+      font-size: 28px; 
+      align-items: center;
+      display: flex;
+      justify-content: center; 
+      width: 295px;
+      height: 100px;
+  }
+ }
+}

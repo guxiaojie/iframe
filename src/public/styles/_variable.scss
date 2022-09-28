@@ -1,0 +1,121 @@
+// 主题色（深色）
+$darkPrimaryColor: #f6b44c;
+$themeColor: #fef188;
+
+// 主题色（浅色）
+$primaryColor: #2196F3;
+
+// 文本颜色
+$primaryText: #212121;
+
+// 二级文本颜色
+$secondaryText: #757575;
+
+// 分隔符颜色
+$divideText: #BDBDBD;
+
+// 金额支出颜色
+$expendColor: green;
+
+// 金额收入颜色
+$incomeColor: red;
+
+// 边框颜色
+$borderColor: #f4f4f4;
+
+// 背景色
+$backgroundColor: #f4f4f4;
+
+// 分隔符背景色
+$secondaryBackgroundColor: #f1f1f1;
+
+$iconGrey: #bcbcbc;
+
+$linkColor: #537c8d;
+
+$loginHeight: 88px;
+
+@function toRpx($number) {
+  @return $number * 2;
+}
+
+
+.choose_character {
+	margin: 50px auto;
+	height: 125px;
+	line-height: 60px;
+	> .column {
+	  padding:0 44px;
+	  margin-bottom: 0px;
+	  font-size: 28px;
+	  display: flex;
+	  justify-content: center;
+
+	  > .title1 {
+		line-height: 60px;
+	  }
+	  > .title2 {
+		font-size: 38px;
+	  }
+	} 
+ 
+
+	 .img-top-shortline {
+		// background-color: red;
+		margin: 20px;
+		display:flex;                    //flex布局
+		justify-content: center;         //水平轴线居中
+	   
+	  }
+  }
+
+.spin { 
+	width:80px;
+	height:80px;
+	position: fixed;
+	// background-color: red;
+	top: 50%;
+	left: 50%;
+	margin-top: -40px;
+	margin-left: -40px;
+}
+
+.search-input
+{
+	width: 88%;  
+  border: 0px solid green;
+  background: transparent;
+ // background-color:pink;
+  font-size:27px;
+//   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+ // padding-left:30px;
+  margin-left:5px;
+  padding-right: 0;
+}
+
+
+page, .container{
+	height: 100%;
+  
+	.systemprompt {
+	  width: 100%; 
+	  background: #fefced;
+	  font-size: 30px;
+	  height: 80px;
+	  line-height: 80px;
+	  font-weight: lighter;
+	 
+	  display: inline-block;
+	  vertical-align: top;
+  
+  
+   
+	  > text {
+		color: #e7713a;
+	  }
+	  .copy {
+		font-weight: bold; 
+		float: right;
+	  }
+	}
+  }

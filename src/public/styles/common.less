@@ -1,0 +1,155 @@
+@darkPrimaryColor: #1976D2;
+@primaryColor: #2196F3;
+@primaryText: #212121;
+@secondaryText: #757575;
+@divideText: #BDBDBD;
+@expendColor: green;
+@incomeColor: red;
+@transferColor: #fef188;
+ 
+
+.theme-color-red {
+	color: @primaryColor;
+}
+.zan-btn {
+  line-height:40px;
+  height:40px;
+}
+
+.zan-loadmore--nodata {
+	margin:auto !important;
+}
+
+.ljt-btn {
+	line-height:40px;
+	height:40px;
+	color: white;
+	position:relative;
+	background-color:@primaryColor;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius:2px;
+	font-size:16px;
+	line-height:40px;
+	height:40px;
+	box-sizing:border-box;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.ljt-btn:after, button::after {
+	border: 0;
+}
+
+.btn-shadow {
+  box-shadow:4px 8px 12px #ccc;
+}
+.pull-right {
+	float:right;
+}
+.pull-left {
+	float:left;
+}
+.overflow-hide {
+	overflow:hidden;
+}
+.income {
+	color: @incomeColor;
+}
+.expend, .repayment {
+	color: @expendColor;
+}
+.transfer {
+	color: @transferColor;
+}
+.income-border {
+	border-bottom: 1px solid @incomeColor;
+}
+.expend-border {
+	border-bottom: 1px solid @expendColor;
+}
+.surplus {
+	color: black;
+}
+.surplus-border {
+	border-bottom: 1px solid black;
+}
+.orange {
+	color: orange;
+}
+.blue {
+	color: blue;
+}
+.col999 {
+	color: #999;
+}
+.text-grey {
+	color: @secondaryText;
+}
+.fs12 {
+	font-size:24px;
+}
+.fs13 {
+	font-size:26px;
+}
+.fs14 {
+	font-size:28px;
+}
+.fs16 {
+	font-size:32px;
+}
+.fs18 {
+	font-size:36px;
+}
+.fs19 {
+	font-size:38px;
+}
+.fs20 {
+	font-size:40px;
+}
+.fs21 {
+	font-size:42px;
+}
+.fs24 {
+	font-size:48px;
+}
+.fs32 {
+	font-size:64px;
+}
+.ljt-icon {
+	width:50px;
+	height:50px;
+}
+
+
+/* radio未选中时样式 */
+radio .wx-radio-input{
+	border: none;
+	border-radius: 50%;/* 圆角 */
+	width: 40px;
+	height: 40px;
+	background-image: url('https://assets.storiesmatter.cn/radio.png');
+	background-size:contain; 
+  }
+  /* radio未选中时样式 */
+  radio .wx-radio-input.wx-radio-input-checked{
+	border: none;
+	background:transparent;
+	background-image: url('https://assets.storiesmatter.cn/radioselected.png');
+	background-size:contain; 
+  }
+  /* radio选中时样式 √ */ 
+  radio .wx-radio-input.wx-radio-input-checked::before{
+	border: none;
+	border-radius: 50%;/* 圆角 */
+	width: 0px; /* 选中后对勾大小，不要超过背景的尺寸 */
+	height: 0px; /* 选中后对勾大小，不要超过背景的尺寸 */
+	line-height: 40px;
+	text-align: center;
+	font-size:30px; /* 对勾大小 30px */
+	 
+	transform:translate(-50%, -50%) scale(1);
+	-webkit-transform:translate(-50%, -50%) scale(1);
+  }
+
